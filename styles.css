@@ -12,7 +12,7 @@ body {
 	
 
 }
-.nodecoration {
+.toplinks {
 	text-decoration: none;
 	color: black;
 	margin: 0px 28px 0px 0px;
@@ -24,6 +24,12 @@ body {
 }
 .font700 {
 	font-weight: 700;
+}
+.nodecor {
+	text-decoration: none;
+}
+.blacklinks {
+	color: black;
 }
 #maincontent {
 	display: flex;
@@ -38,6 +44,16 @@ body {
 }
 #rightcontent {
 	margin: 70px 60px 0px;
-	flex: 1
+	flex: 1;
+	align-content: center;
+	justify-content: center;
 	
+}
+#firstbutton {
+	background-color: #305B90;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 30px;
 }
