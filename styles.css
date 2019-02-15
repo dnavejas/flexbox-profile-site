@@ -6,6 +6,10 @@ body {
 ul {
 	list-style-type: none;
 }
+img {
+	height: 40px;
+	width: 40px;
+}
 .contatiner {
 	height: 100vh;
 	overflow: hidden;
@@ -45,7 +49,9 @@ ul {
 }
 .graytext {
 	color: #999999;
-
+}
+.inline {
+	display: inline;
 }
 #profilepic {
 	background-image: url(Profile.jpg);
