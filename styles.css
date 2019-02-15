@@ -1,14 +1,43 @@
+body {
+	margin: 0px;
+	font-size: 16px;
+	font-family: 'Actor', sans-serif;
+}
+
 .header {
 	display: flex;
-	width: 100vw;
 	justify-content: flex-end;
+	font-size: 18px;
+	padding: 15px 20px 30px 20px;
+	
 
 }
 .nodecoration {
 	text-decoration: none;
 	color: black;
+	margin: 0px 28px 0px 0px;
 }
 .links {
 	justify-content: flex-start;
+	margin-right: auto;
 
+}
+.font700 {
+	font-weight: 700;
+}
+#maincontent {
+	display: flex;
+	height: 100%;
+}
+#profilepic {
+	background-image: url(Profile.jpg);
+	background-size: cover;
+	flex: 2;
+	background-position: center;
+	
+}
+#rightcontent {
+	margin: 70px 60px 0px;
+	flex: 1
+	
 }
