@@ -3,7 +3,13 @@ body {
 	font-size: 16px;
 	font-family: 'Actor', sans-serif;
 }
-
+ul {
+	list-style-type: none;
+}
+.contatiner {
+	height: 100vh;
+	overflow: hidden;
+}
 .header {
 	display: flex;
 	justify-content: flex-end;
@@ -38,6 +44,7 @@ body {
 	color: gray;
 }
 .graytext {
+	color: #999999;
 
 }
 #profilepic {
