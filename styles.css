@@ -9,8 +9,6 @@ body {
 	justify-content: flex-end;
 	font-size: 18px;
 	padding: 15px 20px 30px 20px;
-	
-
 }
 .toplinks {
 	text-decoration: none;
@@ -27,19 +25,27 @@ body {
 }
 .nodecor {
 	text-decoration: none;
+	color: black;
 }
 .blacklinks {
 	color: black;
 }
-#maincontent {
+.maincontent {
 	display: flex;
-	height: 100%;
+	height: 100vh;
+}
+.maincontent a:hover {
+	color: gray;
+}
+.graytext {
+
 }
 #profilepic {
 	background-image: url(Profile.jpg);
 	background-size: cover;
 	flex: 2;
 	background-position: center;
+	height: 100%;
 	
 }
 #rightcontent {
